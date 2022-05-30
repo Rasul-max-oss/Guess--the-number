@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="94dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="340dp"
+        android:backgroundTint="#5DD30C"
+        android:onClick="ClickRangeThree"
+        android:text="500-1000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Загадайте число "
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/predict"
+        android:layout_width="375dp"
+        android:layout_height="56dp"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/b"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.208" />
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="102dp"
+        android:layout_height="48dp"
+        android:background="@color/white"
+        android:backgroundTint="#8A1616"
+        android:text="больше"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/lit"
+        android:layout_width="149dp"
+        android:layout_height="50dp"
+        android:background="#856868"
+        android:backgroundTint="#F3F3F3"
+        android:text="Меньше"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.609" />
+
+    <Button
+        android:id="@+id/eq"
+        android:layout_width="149dp"
+        android:layout_height="50dp"
+        android:background="#3A0C0C"
+        android:backgroundTint="#654141"
+        android:text="Равно"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.609" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="94dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#6CDC43"
+        android:onClick="ClickRange"
+        android:text="1-100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.368" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="94dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="#70CC48"
+        android:onClick="ClickRangeTwo"
+        android:text="100-500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="224dp"
+        android:layout_height="26dp"
+        android:text="Выберите диапозон"
+        android:textColor="#F1E2E2"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.306" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
